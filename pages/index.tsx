@@ -1,12 +1,13 @@
 import Head from 'next/head'
+import Logo from '../components/Logo'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
         <title>NewsHub</title>
       </Head>
-      <h1>NewsHub</h1>
+      <Logo />
     </div>
   )
 }
