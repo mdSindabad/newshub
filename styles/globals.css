@@ -4,4 +4,6 @@
 
 body{
     background:gainsboro;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }

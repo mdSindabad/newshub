@@ -1,3 +1,4 @@
+import { GetStaticProps } from "next";
 
 const Business = () => {
     return <div className='md:mx-20'>
@@ -6,3 +7,4 @@ const Business = () => {
 };
 
 export default Business;
+
